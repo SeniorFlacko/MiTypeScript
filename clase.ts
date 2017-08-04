@@ -6,7 +6,7 @@ interface iavenger{
     peleasGanadas:number
 }
 
-class Avenger{
+export class Avenger{
     nombre:string
     equipo:string
     nombreReal:string

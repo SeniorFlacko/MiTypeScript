@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Avenger = (function () {
     function Avenger(av) {
         var nombre = av.nombre, equipo = av.equipo, nombreReal = av.nombreReal, puedePelear = av.puedePelear, peleasGanadas = av.peleasGanadas;
@@ -10,6 +11,7 @@ var Avenger = (function () {
     }
     return Avenger;
 }());
+exports.Avenger = Avenger;
 var javier = {
     nombre: "Javier",
     equipo: "Equipo 1",
