@@ -1,3 +1,4 @@
+"use strict";
 var Saludo = (function () {
     function Saludo(nombre) {
         this.nombre = nombre;
@@ -38,3 +39,5 @@ var este_empleado = new Empleado(pepito_perez);
 console.log(este_empleado.id);
 console.log(este_empleado.nombre);
 console.log("Este empleado es " + este_empleado.getEmpleado().id + " " + este_empleado.getEmpleado().nombre);
+console.log(este_empleado.nombre);
+console.log(este_empleado.nombre);
