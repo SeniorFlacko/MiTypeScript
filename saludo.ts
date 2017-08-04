@@ -1,12 +1,11 @@
 class Reverencia{
-    quien:string
-    constructor(quien:string){
-        this.quien=quien
+
+    public nombre:string
+    constructor(nombre:string){
+        this.nombre=nombre
     }
 
-    hacerReverencia(){
-        
-
+    hacerReverencia():string{
         return `
                 Reina de los Ándalos y 
                 los primeros hombres. 
@@ -14,7 +13,7 @@ class Reverencia{
                 rompedora de cadenas y madre de dragones...
 
 
-                ${ this.quien } !!!`
+                ${ this.nombre } !!!`
     }
 }
 
