@@ -1,4 +1,4 @@
-interface aven{
+interface iavenger{
     nombre:string,
     equipo:string,
     nombreReal:string,
@@ -7,19 +7,24 @@ interface aven{
 }
 
 class Avenger{
-    nombre:string = "Antman"
+    nombre:string
     equipo:string
     nombreReal:string
 
     puedePelear:boolean
     peleasGanadas:number
 
-    constructor(av:aven){
+    constructor(av:iavenger){
         let {nombre,equipo,nombreReal,puedePelear,peleasGanadas} = av
+        this.nombre = nombre
+        this.equipo = equipo
+        this.nombreReal = nombreReal
+        this.puedePelear = puedePelear
+        this.peleasGanadas = peleasGanadas
     }
 }
 
-let javier = {
+let javier:iavenger = {
     nombre:"Javier",
     equipo:"Equipo 1",
     nombreReal:"El Javs",

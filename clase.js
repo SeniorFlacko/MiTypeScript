@@ -1,8 +1,12 @@
 "use strict";
 var Avenger = (function () {
     function Avenger(av) {
-        this.nombre = "Antman";
         var nombre = av.nombre, equipo = av.equipo, nombreReal = av.nombreReal, puedePelear = av.puedePelear, peleasGanadas = av.peleasGanadas;
+        this.nombre = nombre;
+        this.equipo = equipo;
+        this.nombreReal = nombreReal;
+        this.puedePelear = puedePelear;
+        this.peleasGanadas = peleasGanadas;
     }
     return Avenger;
 }());
