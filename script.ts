@@ -24,6 +24,4 @@ class Saludo{
 var saludin = new Saludo("Brandon")
 console.log(saludin.saludoCasual())
 saludin.setNombre("Cristian")
-console.log(saludin.saludoFormal())
-
-
+console.log( saludin.saludoFormal())
